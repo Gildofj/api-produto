@@ -43,6 +43,6 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             gildofj/api-bootcamp-produto-gildo:latest
             gildofj/api-bootcamp-produto-gildo:${{github.run_number}}
