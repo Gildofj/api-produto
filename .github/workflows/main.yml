@@ -45,4 +45,4 @@ jobs:
           push: true
           tags: |
             gildofj/api-bootcamp-produto-gildo:latest
-            gildofj/api-bootcamp-produto-gildo:${{github.run_number}}
+            gildofj/api-bootcamp-produto-gildo:v${{github.run_number}}
